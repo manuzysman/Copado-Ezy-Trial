@@ -223,6 +223,16 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Renewal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This field is checked when it&apos;s renewal</description>
+        <externalId>false</externalId>
+        <label>Renewal</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>StageName</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
