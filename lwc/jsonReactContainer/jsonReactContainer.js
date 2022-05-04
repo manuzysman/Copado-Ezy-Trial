@@ -9,7 +9,7 @@ export default class JsonReactContainer extends LightningElement {
 
   renderedCallback() {
     Promise.all([loadScript(this, App)]).then(() => {
-      mount(this.template.querySelector("div7"), {
+      mount(this.template.querySelector("div55"), {
         jsonText: this.jsonText,
         reactJsonViewProps: this.reactJsonViewProps
       });
