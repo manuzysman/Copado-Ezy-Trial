@@ -2,13 +2,13 @@ public class AccountAutomations1 {
     Public static Account setDefaultDescription(Account a){
         If (a.Description != null) return a;
         Else {
-            a.Description = 'Default description';
+            a.Description = 'Default descriptionsss';
             return a;
         }
     }
     public static Account setDefaultBillingAddress(Account a){
         a.billingstreet = 'Basauri, 6'; 
-        a.billingstate = 'Madrid'; 
+        a.billingstate = 'Madridss'; 
         a.billingpostalcode ='28023'; 
         return a;
     }
