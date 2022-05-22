@@ -41,7 +41,7 @@ private class AccountAutomations1Test {
     @isTest static void testDefaultURL(){
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
-        acc = AccountAutomations.setDefaultURL(acc);
+        acc = AccountAutomations1.setDefaultURL(acc);
         System.assertEquals('www.copa.do', acc.Website, 'Default website is www.copa.do');
     }
 }
