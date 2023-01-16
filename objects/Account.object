@@ -311,6 +311,18 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>TestPick__c</fullName>
+        <externalId>false</externalId>
+        <label>TestPick</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>copado__Compliance_Severity</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -358,6 +370,26 @@
         </filters>
         <label>New This Week</label>
     </listViews>
+    <recordTypes>
+        <fullName>ssssss</fullName>
+        <active>true</active>
+        <label>sss</label>
+        <picklistValues>
+            <picklist>TestPick__c</picklist>
+            <values>
+                <fullName>Critical</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
