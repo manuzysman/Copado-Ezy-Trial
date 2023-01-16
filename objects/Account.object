@@ -327,6 +327,18 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>TestGlobalValueSet__c</fullName>
+        <externalId>false</externalId>
+        <label>TestGlobalValueSet</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>TestAdded</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>TestPick__c</fullName>
         <externalId>false</externalId>
         <label>TestPick</label>
@@ -389,7 +401,18 @@
     <recordTypes>
         <fullName>ssssss</fullName>
         <active>true</active>
-        <label>sss</label>
+        <label>AccRecordT</label>
+        <picklistValues>
+            <picklist>TestGlobalValueSet__c</picklist>
+            <values>
+                <fullName>Test</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Test2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>TestPick__c</picklist>
             <values>
